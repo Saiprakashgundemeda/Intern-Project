@@ -97,6 +97,7 @@ const LandingPageFooter = (props) => {
                     className="text-base text-gray-900 w-full"
                     size="txtManropeSemiBold16"
                     style={{ cursor: "pointer" }}
+                    onClick={() => navigate("/")}
                   >
                     Home
                   </Text>
@@ -104,6 +105,7 @@ const LandingPageFooter = (props) => {
                     className="text-base text-gray-900 w-full"
                     size="txtManropeSemiBold16"
                     style={{ cursor: "pointer" }}
+                    onClick={() => navigate("/AgentList")}
                   >
                     Vendors
                   </Text>
@@ -121,6 +123,7 @@ const LandingPageFooter = (props) => {
                     className="text-base text-gray-900 w-full"
                     size="txtManropeSemiBold16"
                     style={{ cursor: "pointer" }}
+                    onClick={() => navigate("/AboutUs")}
                   >
                     About Us
                   </Text>
@@ -128,6 +131,7 @@ const LandingPageFooter = (props) => {
                     className="text-base text-gray-900 w-full"
                     size="txtManropeSemiBold16"
                     style={{ cursor: "pointer" }}
+                    onClick={() => navigate("/AgentList")}
                   >
                     Vendors
                   </Text>
@@ -145,6 +149,7 @@ const LandingPageFooter = (props) => {
                     className="text-base text-gray-900 w-full"
                     size="txtManropeSemiBold16"
                     style={{ cursor: "pointer" }}
+                    onClick={() => navigate("/BlogPage")}
                   >
                     Blog
                   </Text>
@@ -152,6 +157,7 @@ const LandingPageFooter = (props) => {
                     className="text-base text-gray-900 w-full"
                     size="txtManropeSemiBold16"
                     style={{ cursor: "pointer" }}
+                    onClick={() => navigate("/FAQ")}
                   >
                     FAQ
                   </Text>
@@ -159,6 +165,7 @@ const LandingPageFooter = (props) => {
                     className="text-base text-gray-900 w-full"
                     size="txtManropeSemiBold16"
                     style={{ cursor: "pointer" }}
+                    onClick={() => navigate("/PrivacyPolicy")}
                   >
                     Privacy Policy
                   </Text>
@@ -166,6 +173,7 @@ const LandingPageFooter = (props) => {
                     className="text-base text-gray-900 w-full"
                     size="txtManropeSemiBold16"
                     style={{ cursor: "pointer" }}
+                    onClick={() => navigate("/TermsAndConditions")}
                   >
                     Terms & Conditions
                   </Text>
@@ -191,6 +199,7 @@ const LandingPageFooter = (props) => {
                     className="text-base text-gray-900 w-full"
                     size="txtManropeSemiBold16"
                     style={{ cursor: "pointer" }}
+                    onClick={() => navigate("/signup")}
                   >
                     Sign Up
                   </Text>
