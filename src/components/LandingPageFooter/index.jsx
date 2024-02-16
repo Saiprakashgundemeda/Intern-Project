@@ -16,6 +16,7 @@ const LandingPageFooter = (props) => {
                   className="h-10 w-10"
                   src="images/db_logo.png"
                   alt="home_One"
+                  style={{cursor: "pointer"}}
                 />
                 <Text
                   className="text-orange-A700 text-xl w-auto"
@@ -45,6 +46,7 @@ const LandingPageFooter = (props) => {
                   <Text
                     className="text-base text-gray-900 w-auto"
                     size="txtManropeSemiBold16"
+                    style={{cursor: "pointer"}}
                   >
                     dirghayubharathelp@gmail.com
                   </Text>
@@ -55,6 +57,7 @@ const LandingPageFooter = (props) => {
                       className="h-[30px] w-[30px]"
                       src="images/img_plus.svg"
                       alt="plus"
+                      style={{cursor: "pointer"}}
                     />
                   </div>
                   <div className="flex flex-col h-[30px] items-center justify-start w-[30px]">
@@ -62,23 +65,27 @@ const LandingPageFooter = (props) => {
                       className="h-[30px] w-[30px]"
                       src="images/img_twitter.svg"
                       alt="twitter"
+                      style={{cursor: "pointer"}}
                     />
                   </div>
                   <Img
                     className="h-[30px] w-[30px]"
                     src="images/img_instagram_orange_a700_30x30.svg"
                     alt="instagram"
+                    style={{cursor: "pointer"}}
                   />
                   <Img
                     className="h-[30px] w-[30px]"
                     src="images/img_linkedin.svg"
                     alt="linkedin"
+                    style={{cursor: "pointer"}}
                   />
                   <div className="flex flex-col h-[30px] items-center justify-start w-[30px]">
                     <Img
                       className="h-[30px] w-[30px]"
                       src="images/img_clock_orange_a700.svg"
                       alt="clock"
+                      style={{cursor: "pointer"}}
                     />
                   </div>
                 </div>

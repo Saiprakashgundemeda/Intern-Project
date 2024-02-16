@@ -16,6 +16,7 @@ const ListingMapView = React.lazy(() => import("pages/ListingMapView"));
 const Listing = React.lazy(() => import("pages/Listing"));
 const AboutUs = React.lazy(() => import("pages/AboutUs"));
 const LandingPage = React.lazy(() => import("pages/LandingPage"));
+const TermsAndConditions = React.lazy(() => import("pages/TermsAndConditions"));
 const ProjectRoutes = () => {
   return (
     <React.Suspense fallback={<>Loading...</>}>
@@ -35,6 +36,7 @@ const ProjectRoutes = () => {
           <Route path="/error" element={<Error />} />
           <Route path="/faq" element={<FAQ />} />
           <Route path="/privacypolicy" element={<PrivacyPolicy />} />
+          <Route path="/termsandconditions" element={<TermsAndConditions />} />
           <Route path="/license" element={<License />} />
           <Route path="/dhiwise-dashboard" element={<Home />} />
           <Route path="*" element={<NotFound />} />

@@ -4,7 +4,7 @@ import { Button, Img, List, Text } from "components";
 import Header from "components/Header";
 import LandingPageFooter from "components/LandingPageFooter";
 
-const PrivacyPolicyPage = () => {
+const PrivacyPolicy = () => {
   return (
     <>
       <div className="bg-gray-51 flex flex-col font-markoone sm:gap-10 md:gap-10 gap-[100px] items-start justify-start mx-auto w-auto sm:w-full md:w-full">
@@ -17,49 +17,57 @@ const PrivacyPolicyPage = () => {
                   <Text
                     className="sm:text-4xl md:text-[42px] text-[46px] text-gray-900 tracking-[-0.92px] w-full"
                     size="txtManropeExtraBold46"
+                    style={{cursor: "pointer"}}
                   >
                     Privacy Policy
                   </Text>
+                  <br/>
+                  
                   <Text
                     className="text-gray-600 text-lg w-full"
                     size="txtManropeRegular18Gray600"
                   >
-                    Last updated: January 2020
+                    Dirghayu Bharat ("we," "our," or "us") is committed to protecting 
+                    the privacy of our users. This Privacy Policy outlines the 
+                    types of information we collect, how we use it, and the choices
+                     you have regarding your personal information.
                   </Text>
+
+                  
                 </div>
-                <Text
-                  className="leading-[180.00%] text-gray-600 text-lg"
-                  size="txtManropeRegular18Gray600"
-                >
-                  <>
-                    Hi, welcome to our privacy policy which applies to our
-                    customers. This policy sets out how if you are a Dirghayu
-                    Bharat.com user or visitor to our site, we treat your
-                    personal information.
-                    <br />
-                    Last updated on March 01, 2020.
-                  </>
-                </Text>
+                
               </div>
               <div className="flex flex-col gap-10 items-start justify-start w-full">
                 <div className="flex flex-col gap-6 items-start justify-start w-full">
                   <Text
                     className="text-2xl md:text-[22px] text-gray-900 sm:text-xl tracking-[-0.48px] w-full"
                     size="txtManropeBold24Gray900"
+                    style={{cursor: "pointer"}}
                   >
-                    1. The type of personal information we collect
+                    1. Information We Collect
                   </Text>
                   <Text
                     className="leading-[180.00%] text-gray-600 text-lg"
                     size="txtManropeRegular18Gray600"
                   >
                     <>
-                      Hi, welcome to our privacy policy which applies to our
-                      customers. This policy sets out how if you are a Dirghayu
-                      Bharat.com user or visitor to our site, we treat your
-                      personal information.
-                      <br />
-                      Last updated on March 01, 2020.
+                    Personal Information: We may collect personal 
+                    information such as names, contact details, and other
+                    identifiable information when you use our website,
+                    products, or services.
+                    <br/>
+                    <br/>
+                    Usage Information: We may collect information about 
+                    how you interact with our website, applications, and 
+                    services, including IP addresses, device information, 
+                    and browsing history.
+                    <br/>
+                    <br/>
+                    Cookies and Similar Technologies: We use cookies and 
+                    similar technologies to enhance your experience, analyse 
+                    trends, and administer the website. You can control the 
+                    use of cookies through your browser settings.
+
                     </>
                   </Text>
                 </div>
@@ -67,42 +75,48 @@ const PrivacyPolicyPage = () => {
                   <Text
                     className="text-2xl md:text-[22px] text-gray-900 sm:text-xl tracking-[-0.48px] w-full"
                     size="txtManropeBold24Gray900"
+                    style={{cursor: "pointer"}}
                   >
-                    2. Cookies and web analytics
+                    2. How We Use Your Information
                   </Text>
                   <Text
                     className="leading-[180.00%] max-w-[1054px] md:max-w-full text-gray-600 text-lg"
                     size="txtManropeRegular18Gray600"
                   >
-                    We use cookies to recognize and monitor users, their on-site
-                    behavior, and their preferences for accessing their website.
-                    These cookies include the IP and time of visits by visitors.
-                    Visitors to Dirghayu Bharat that do not want cookies put on
-                    their browsers should configure their browsers to reject
-                    cookies before using the Dirghayu Bharat website.
+                    Providing Services: We use your information to provide 
+                    and improve our products and services, customize content,
+                    and communicate with you.
+
+                    <br />
+                    <br/>
+                    Analytics: We analyse user behaviour to understand trends,
+                    improve our website, and enhance user experience.
+                    <br/>
+                    <br/>
+                    Marketing and Communications: With your consent, we 
+                    may send you promotional materials and updates about 
+                    our products and services.
+
+
                   </Text>
                 </div>
                 <div className="flex flex-col gap-6 items-start justify-start w-full">
                   <Text
                     className="text-2xl md:text-[22px] text-gray-900 sm:text-xl tracking-[-0.48px] w-full"
                     size="txtManropeBold24Gray900"
+                    style={{cursor: "pointer"}}
                   >
-                    3. When do we need to update this policy?
+                    3.Information Sharing
                   </Text>
                   <Text
                     className="leading-[180.00%] text-gray-600 text-lg"
                     size="txtManropeRegular18Gray600"
                   >
                     <>
-                      We will need to update this policy from time to time to
-                      ensure that it remains up-to-date with the latest legal
-                      requirements and any improvements to our privacy
-                      management practices.
-                      <br />
-                      When we change the policy, we will make sure that we
-                      inform you, if any, of such changes. A copy of this
-                      policy’s latest version will always be available at this
-                      page.
+                    We do not sell, trade, or otherwise transfer your 
+                    personal information to third parties without your 
+                    consent, except as described in this Privacy Policy.
+                    
                     </>
                   </Text>
                 </div>
@@ -110,45 +124,19 @@ const PrivacyPolicyPage = () => {
                   <Text
                     className="text-2xl md:text-[22px] text-gray-900 sm:text-xl tracking-[-0.48px] w-full"
                     size="txtManropeBold24Gray900"
+                    style={{cursor: "pointer"}}
                   >
-                    4. Registration
+                    4. Data Security
                   </Text>
                   <Text
                     className="leading-[180.00%] text-gray-600 text-lg"
                     size="txtManropeRegular18Gray600"
                   >
                     <>
-                      To use our Service you will need to create an account and
-                      complete the registration process at
-                      https://Relasto.com/signup (Registration).
-                      <br />
-                      <br />
-                      At Registration, you will select logon credentials for
-                      each user of the Service, which may be an employee of the
-                      Subscriber or other individuals authorised by the
-                      Subscriber to use the Service (Authorised User). Logon
-                      details should only be used by the Authorised User to whom
-                      they are assigned and cannot be shared with any third
-                      parties (including another Authorised User). You are
-                      solely responsible for the confidentiality and use of all
-                      logon details for your account and those assigned to
-                      Authorised Users, as well as for any use or misuse of the
-                      Service using Subscriber’s or any Authorised Users’ logon
-                      details. You shall notify us immediately if you become
-                      aware of any loss, theft or unauthorised use of any logon
-                      details, and we reserve the right to delete or change them
-                      at any time and for any reason.
-                      <br />
-                      <br />
-                      You warrant and represent to us that the details you
-                      provide to us during Registration are accurate, complete
-                      and up-to-date. We will hold and treat such information in
-                      accordance with the terms of our Privacy Policy.
-                      <br />
-                      If you or your Participants use a mobile telephone to
-                      access our Service, we may need to send SMS messages. You
-                      may opt out of this service by replying STOP to the SMS
-                      message or by contacting us at support@dirghayubharat.com.
+                    We implement reasonable security measures to protect 
+                    your personal information from unauthorized access, 
+                    disclosure, alteration, and destruction.
+
                     </>
                   </Text>
                 </div>
@@ -156,23 +144,74 @@ const PrivacyPolicyPage = () => {
                   <Text
                     className="text-2xl md:text-[22px] text-gray-900 sm:text-xl tracking-[-0.48px] w-full"
                     size="txtManropeBold24Gray900"
+                    style={{cursor: "pointer"}}
                   >
-                    5. Marketing Choices regarding your personal data
+                    5. Your Choices
                   </Text>
                   <Text
                     className="leading-[180.00%] max-w-[1054px] md:max-w-full text-gray-600 text-lg"
                     size="txtManropeRegular18Gray600"
                   >
-                    Where we have your permission to do so (e.g. if you
-                    subscribed to one of our email lists or indicated that you
-                    are interested in receiving deals or information from us),
-                    we will send you email marketing messages about products and
-                    services which we feel may be of interest to you. You can
-                    ‘opt-out’ of such communications if you would prefer not to
-                    receive them in the future by using the “unsubscribe”
-                    facility provided in the communication itself.
+                   You have the right to access, correct, or delete 
+                   your personal information. You may also opt-out of 
+                   receiving marketing communications
+                  
                   </Text>
                 </div>
+                <div className="flex flex-col gap-6 items-start justify-start w-full">
+                  <Text
+                    className="text-2xl md:text-[22px] text-gray-900 sm:text-xl tracking-[-0.48px] w-full"
+                    size="txtManropeBold24Gray900"
+                    style={{cursor: "pointer"}}
+                  >
+                    6. Children's Privacy
+                  </Text>
+                  <Text
+                    className="leading-[180.00%] max-w-[1054px] md:max-w-full text-gray-600 text-lg"
+                    size="txtManropeRegular18Gray600"
+                  >
+                   Our services are not directed towards children under 
+                   the age of 13. We do not knowingly collect personal 
+                   information from children.
+                                     
+                      </Text>
+                </div>
+                <div className="flex flex-col gap-6 items-start justify-start w-full">
+                  <Text
+                    className="text-2xl md:text-[22px] text-gray-900 sm:text-xl tracking-[-0.48px] w-full"
+                    size="txtManropeBold24Gray900"
+                    style={{cursor: "pointer"}}
+                  >
+                    7. Changes To This Privacy Policy
+                  </Text>
+                  <Text
+                    className="leading-[180.00%] max-w-[1054px] md:max-w-full text-gray-600 text-lg"
+                    size="txtManropeRegular18Gray600"
+                  >
+                    We may update this Privacy Policy periodically. 
+                    We will notify you of significant changes via email 
+                    or by prominently posting the updated Privacy Policy 
+                    on our website.
+                    
+                    </Text>
+                </div>
+                <div className="flex flex-col gap-6 items-start justify-start w-full">
+                  <Text
+                    className="text-2xl md:text-[22px] text-gray-900 sm:text-xl tracking-[-0.48px] w-full"
+                    size="txtManropeBold24Gray900"
+                    style={{cursor: "pointer"}}
+                  >
+                    8. Contact Us
+                  </Text>
+                  <Text
+                    className="leading-[180.00%] max-w-[1054px] md:max-w-full text-gray-600 text-lg"
+                    size="txtManropeRegular18Gray600"
+                  >
+                    If you have any questions or concerns regarding this 
+                    Privacy Policy, please contact us at dirghayubharathelp@gmail.com.
+                  </Text>
+                </div>
+                
               </div>
             </div>
           </div>
@@ -183,4 +222,4 @@ const PrivacyPolicyPage = () => {
   );
 };
 
-export default PrivacyPolicyPage;
+export default PrivacyPolicy;

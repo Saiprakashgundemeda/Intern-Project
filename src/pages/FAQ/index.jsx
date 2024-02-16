@@ -2,6 +2,7 @@ import React from "react";
 
 import { Button, Img, Input, Line, List, Text } from "components";
 import Header from "components/Header";
+import LandingPageFooter from "components/LandingPageFooter";
 
 import { CloseSVG } from "../../assets/images";
 
@@ -141,6 +142,7 @@ const FAQPage = () => {
             </div>
           </div>
         </div>
+        <LandingPageFooter className="bg-white-A700 flex gap-2 items-center justify-center md:px-5 px-[120px] py-20 w-full" />
       </div>
     </>
   );

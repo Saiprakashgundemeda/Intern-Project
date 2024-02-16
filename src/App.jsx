@@ -3,6 +3,8 @@ import React, { useEffect } from "react";
 import Routes from "./Routes";
 import { isLocalhost } from "utils/helper";
 
+
+
 function App() {
   useEffect(() => {
     if (isLocalhost()) {
